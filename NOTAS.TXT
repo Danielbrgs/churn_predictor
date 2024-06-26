@@ -1,0 +1,3 @@
+Aparentemente os dados estão sendo previstos de forma não binária.
+devo verificar se os dados de saída y_true estão saindo do jeito certo
+verificar se o preprocessamento está sendo feito corretamente.
