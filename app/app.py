@@ -17,10 +17,10 @@ class FeatureSelector(BaseEstimator, TransformerMixin):
     def transform(self, X):
         return X.drop(columns=self.features_to_drop)
 
-st.set_page_config(page_title='Churn Prediction', page_icon='img\dnc.webp')
+st.set_page_config(page_title='Churn Prediction', page_icon='img/dnc.webp')
 st.title('Telco Previsão de Churn')
 
-st.image('img\customer_churn.jpeg')
+st.image('img/customer_churn.jpeg')
 
 st.markdown("""
             A previsão de churn é um aspecto cruciar para qualquer negócio que queira reter os seus clientes.
