@@ -17,13 +17,13 @@ class FeatureSelector(BaseEstimator, TransformerMixin):
     def transform(self, X):
         return X.drop(columns=self.features_to_drop)
 
-st.set_page_config(page_title='Churn Prediction', page_icon='img/dnc.webp')
+st.set_page_config(page_title='Churn Prediction', page_icon='img/ico.jpg')
 st.title('Telco Previsão de Churn')
 
 st.image('img/customer_churn.jpeg')
 
 st.markdown("""
-            A previsão de churn é um aspecto cruciar para qualquer negócio que queira reter os seus clientes.
+            A previsão de churn é um aspecto crucial para qualquer negócio que queira reter os seus clientes.
             No contexto o aplicativo usa algoritmos de machine learning e dados históricos para aprender sobre os clientes e prever a possibilidade de churn.
             Usando estes algoritmos a companhia economiza tempo e recursos e fica mais informado sobre as decisões de negócio.
             """)
