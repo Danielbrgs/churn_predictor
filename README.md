@@ -1,47 +1,47 @@
-## Projeto de Predição de Churn
-#### Introdução:
+## Churn Prediction Project
+#### Introduction:
 
-Este projeto tem como objetivo desenvolver um aplicativo web para prever a rotatividade de clientes (churn) de uma empresa de telecomunicações. O aplicativo utiliza um modelo de aprendizado de máquina treinado para identificar clientes com alto risco de churn, permitindo que a empresa tome medidas proativas para retê-los.
+This project aims to develop a web application to predict customer churn for a telecommunications company. The application uses a machine learning model trained to identify customers at high risk of churn, allowing the company to take proactive measures to retain them.
 
-#### Ambiente de Desenvolvimento:
+#### Development environment:
 
-* Linguagem de programação: Python 3.12
+* Programming language: Python 3.12
 * IDE: Visual Studio Code
-* Bibliotecas:
-As bibliotecas necessárias estão listadas no arquivo requirements.txt.
-#### Instruções para Execução Local:
+* Libraries:
+The required libraries are listed in the requirements.txt file.
+#### Instructions for Local Execution:
 
-* Clone o repositório do GitHub.
-* Crie um ambiente conda com Python 3.12 no terminal.
-* Instale as bibliotecas do arquivo requirements.txt usando o comando pip install -r requirements.txt.
-* Navegue até o diretório do aplicativo (app).
-* Execute o aplicativo no terminal usando o comando streamlit run app/app.py.
-#### Dados:
+* Clone the GitHub repository.
+* Create a conda environment with Python 3.12 in the terminal.
+* Install the libraries from the requirements.txt file using the pip install -r requirements.txt command.
+* Navigate to the application directory (app).
+* Run the application in the terminal using the command streamlit run app/app.py.
+#### Data:
 
-* O dicionário de dados utilizado neste projeto pode ser encontrado [neste link](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
+* The data dictionary used in this project can be found [at this link](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
 
-* A fonte original dos dados pode ser acessada [aqui](https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113)
+* The original data source can be accessed [here](https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113)
 
-#### Análise e Pré-processamento de Dados:
+#### Data Analysis and Preprocessing:
 
-A análise e o pré-processamento de dados foram realizados de acordo com a metodologia CRISP-DM e estão documentados no notebook notebooks/note.ipynb. Este notebook contém comentários detalhados, documentação completa e gráficos ilustrativos. O pipeline do modelo treinado foi salvo no formato .pkl usando a biblioteca joblib e é utilizado no aplicativo app.py.
+Data analysis and pre-processing were carried out according to the CRISP-DM methodology and are documented in the notebook notebooks/note.ipynb. This notebook contains detailed comments, complete documentation and illustrative graphics. The trained model pipeline was saved in .pkl format using the joblib library and is used in the app.py application.
 
-#### Aplicativo Web
+#### Web application
 
-O aplicativo web está disponível no seguinte [link:](https://churnpredictor-oeqzx8kgmnsfbe9rtxernq.streamlit.app)
+The web application is available at the following [link:](https://churnpredictor-oeqzx8kgmnsfbe9rtxernq.streamlit.app)
 
-O aplicativo permite que o usuário faça previsões de churn para vários clientes simultaneamente, utilizando um arquivo CSV como entrada. O resultado da previsão pode ser visualizado no próprio aplicativo ou baixado em formato CSV. O aplicativo também indica se o cliente está em risco de churn e qual a probabilidade de churn prevista.
+The application allows the user to make churn forecasts for several customers simultaneously, using a CSV file as input. The result of the forecast can be viewed in the application itself or downloaded in CSV format. The application also indicates whether the customer is at risk of churn and what the predicted churn probability is.
 
-#### Recursos Adicionais:
+#### Additional Resources:
 
-O notebook notebooks/note.ipynb contém informações detalhadas sobre a análise e o pré-processamento de dados, a seleção e o treinamento do modelo, a otimização de hiperparâmetros e a avaliação do modelo.
-O arquivo requirements.txt lista todas as bibliotecas necessárias para executar o projeto.
+The notebook notebooks/note.ipynb contains detailed information on data analysis and pre-processing, model selection and training, hyperparameter optimization and model evaluation.
+The requirements.txt file lists all the libraries needed to run the project.
 
-#### Contribuições:
+#### Contributions:
 
-Sinta-se à vontade para contribuir com este projeto abrindo issues no GitHub ou enviando pull requests com melhorias.
+Feel free to contribute to this project by opening issues on GitHub or sending pull requests with improvements.
 
-**Para saber mais:**
+**To learn more
 
-* [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/daniel-braga-reis-725aa012a/)
-* [Explore meus projetos no GitHub](https://github.com/Danielbrgs?tab=repositories)
+* Connect with me on [LinkedIn](https://www.linkedin.com/in/daniel-braga-reis-725aa012a/)
+* Explore my projects on [GitHub](https://github.com/Danielbrgs?tab=repositories)
